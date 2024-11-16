@@ -25,7 +25,7 @@
     <route id="hello">
       <from uri="timer:hello?period=2000"/>
       <transform>
-        <constant>HELLO!</constant>
+        <constant>HELLO!!</constant>
       </transform>
       <filter>
         <simple>${body} contains 'foo'</simple>
